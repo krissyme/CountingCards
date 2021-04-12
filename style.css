@@ -1,0 +1,52 @@
+*{
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/clover/back.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    margin: 50px 20px;
+    color: rgb(240, 23, 23);
+    text-shadow: 0 10px 9px black;
+}
+
+.container{
+    margin: 20px;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50% );
+}
+
+img{
+    width: 150px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.result{
+    margin-top: 35px;
+    font-size: 20px;
+    color: white;
+}
+

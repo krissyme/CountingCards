@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Counting Cards</h1>
+
+<!--Buttons-->
+    <div class="buttons">
+        <button class="btn" onclick="cardSequence()">
+            COUNT
+        </button>
+        <button class="btn" onclick="clear()">
+            CLEAR
+        </button>
+        <button class="btn" id="next-btn"  onclick="next()">
+            NEXT
+        </button>
+    </div>
+
+
+<!--Result-->
+    <div class="result">Output</div>
+
+
+<!--Images-->
+
+    <div class="container">
+        <div class="firstSet" id="imgSequence">
+            <img id="2" src="images/clover/2C.png" alt="">
+            <img id="3" src="images/clover/3C.png" alt="">
+            <img id="4" src="images/clover/4C.png" alt="">
+            <img id="5" src="images/clover/5C.png" alt="">
+            <img id="6" src="images/clover/6C.png" alt="">
+        </div>
+       <!--<div class="secondSet" id="imgSequence">
+            <img src="images/clover/7C.png" alt="">
+            <img src="images/clover/8C.png" alt="">
+            <img src="images/clover/9C.png" alt="">
+        </div>
+        <div class="thirdSet">
+            <img src="images/clover/10C.png" alt="">
+            <img src="images/clover/JC.png" alt="">
+            <img src="images/clover/QC.png" alt="">
+            <img src="images/clover/KC.png" alt="">
+            <img src="images/clover/AC.png" alt="">
+        </div>
+        <div class="fourthSet">
+            <img src="images/clover/3C.png" alt="">
+            <img src="images/clover/7C.png" alt="">
+            <img src="images/clover/QC.png" alt="">
+            <img src="images/clover/8C.png" alt="">
+            <img src="images/clover/AC.png" alt="">
+        </div>
+        <div class="fifthSet">
+            <img src="images/clover/2C.png" alt="">
+            <img src="images/clover/JC.png" alt="">
+            <img src="images/clover/9C.png" alt="">
+            <img src="images/clover/2C.png" alt="">
+            <img src="images/clover/7C.png" alt="">
+        </div>
+        <div class="sixthSet">
+            <img src="images/clover/2C.png" alt="">
+            <img src="images/clover/2C.png" alt="">
+            <img src="images/clover/10C.png" alt="">
+        </div>
+        <div class="seventhSet">
+            <img src="images/clover/3C.png" alt="">
+            <img src="images/clover/2C.png" alt="">
+            <img src="images/clover/AC.png" alt="">
+            <img src="images/clover/10C.png" alt="">
+            <img src="images/clover/KC.png" alt="">
+        </div>-->
+    </div>
+
+
+    <script src="card.js"></script>
+</body>
+</html>
